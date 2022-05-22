@@ -1,0 +1,77 @@
+.heromenu--links a:focus {
+	box-shadow: none;
+}
+
+.hero--accordion div {
+	border-style: none;
+}
+
+.hero--accordion div a {
+	border-radius: 5px;
+	border: 0;
+	display: block;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hero--accordion div a:hover {
+	text-decoration: none;
+	background: #798cd1;
+}
+.hero--accordion div a:focus {
+	box-shadow: none;
+}
+
+.hero--panel a {
+	color: rgb(156 186 255);
+	font-size: small;
+	line-height: 2px !important;
+	padding: 0.7em;
+}
+.hero--panel a:hover {
+	text-decoration: underline !important;
+	background: none !important;
+}
+
+.project--header h2 {
+	font-size: 50px;
+	font-weight: 600;
+	background-image: radial-gradient(circle, #3840afa1, #000000);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.project--headerlink {
+	text-decoration: underline rgb(133, 142, 156) !important;
+	text-decoration-thickness: 3px !important;
+}
+
+.project--headerlink:focus {
+	box-shadow: none !important;
+}
+
+.project--description::selection {
+	color: aqua;
+}
+
+.about--icons a {
+	padding: 10px;
+}
+
+.about--icons a:focus {
+	box-shadow: none;
+}
+
+.hero--description a {
+	text-decoration: underline dotted blue !important;
+}
+
+.hero--description a:focus {
+	box-shadow: none;
+}
+
+.hero--description a:hover {
+	text-decoration: none;
+}
