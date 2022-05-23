@@ -66,7 +66,9 @@ const Login = ({ onClose, isOpen }) => {
 							onSubmit={async (values) => {
 								setIsLoading(true);
 								await axios
-									.post("http://localhost:5000/api/v1/login", { user: values })
+									.post("https://api-nameless.herokuapp.com/api/v1/login", {
+										user: values,
+									})
 									.then((response) => {
 										localStorage.setItem("jwt", response.data.jwt);
 										onClose();

@@ -35,9 +35,7 @@ const Projects = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			await axios
-				.get(
-					`http://peaceful-earth-08821.herokuapp.com/api/v1/project/${projectId}`
-				)
+				.get(`https://api-nameless.herokuapp.com/api/v1/project/${projectId}`)
 				.then((response) => {
 					setProjectInfo(response.data);
 				})

@@ -65,7 +65,7 @@ const Register = () => {
 				actions.resetForm();
 				setIsLoading(true);
 				await axios
-					.post("http://localhost:5000/api/v1/users", {
+					.post("https://api-nameless.herokuapp.com/api/v1/users", {
 						user: values,
 					})
 					.then((response) => {
