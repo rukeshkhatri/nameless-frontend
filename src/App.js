@@ -4,7 +4,6 @@ import Errors from "./Components/helpers/Errors";
 import Register from "./Components/Pages/Register";
 import About from "./Components/Pages/sections/About";
 import Projects from "./Components/Pages/sections/Projects";
-import Temp from "./Components/Pages/sections/Temp";
 import HomePage from "./Components/UserProfile/HomePage";
 import "./Components/Pages/sections/sectionstyles.css";
 
@@ -18,7 +17,6 @@ function App() {
 				<Route path="/project/oops" element={<Errors />} />
 				<Route path={"/signup"} element={<Register />} />
 				<Route path="/home" element={<HomePage />} />
-				<Route path="/temp" element={<Temp />} />
 			</Routes>
 		</BrowserRouter>
 	);
