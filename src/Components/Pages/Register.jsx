@@ -77,7 +77,8 @@ const Register = () => {
 							duration: 3000,
 							isClosable: true,
 						});
-						navigate("/home"); // Navigate to somewhere
+						navigate("/home");
+						setTimeout(() => window.location.reload(), 400);
 					})
 					.catch((error) => {
 						setIsLoading(false);
