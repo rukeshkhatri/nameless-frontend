@@ -14,6 +14,7 @@ import MenuModal from "../../helpers/MenuModal";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const About = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -73,6 +74,9 @@ const About = () => {
 				</Link>
 				<Link href="https://www.facebook.com/rukeshkhatri/" isExternal>
 					<FacebookIcon sx={{ fontSize: 55 }} />
+				</Link>
+				<Link href="https://www.linkedin.com/in/rukeshkhatri/" isExternal>
+					<LinkedInIcon sx={{ fontSize: 55 }} />
 				</Link>
 			</Box>
 		</Stack>
